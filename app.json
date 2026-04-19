@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Yap",
+    "slug": "yap",
+    "scheme": "yap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.yap.mobile"
+    },
+    "android": {
+      "package": "app.yap.mobile"
+    }
+  }
+}
